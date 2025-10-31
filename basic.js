@@ -195,5 +195,6 @@ let p1 = asyncFunc();
 p1.then((err)=>{
     console.log("Promise Resolved",err);
 }); 
+console.log("This is Second branch");
 
 
