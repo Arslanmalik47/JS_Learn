@@ -2,8 +2,8 @@ name: Run basic.js automatically
 
 on:
   push:
-    branches:
-      - main
+    branches: [ '**']
+      
 
 jobs:
   run-js:
